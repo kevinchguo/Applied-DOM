@@ -126,7 +126,7 @@
    */
 
   btn6.addEventListener("click", function() {
-    setMyLightGreen.call(btn6, event, "light-green");
+    setMyLightGreen.call(this);
   });
 
   /*
